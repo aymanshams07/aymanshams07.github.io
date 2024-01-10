@@ -18,7 +18,7 @@ title: "Research"
 
 - Style transfer is a system which uses neural represenations to separate and recombine content and style of arbitrary images. This is implemented by optimizing the output image to match the content statistics of the content image and the style statistics of the style reference image.
 - VGG-19 CNN architecture is used to extract both the content and style features from the content and style images respectively.
-- check project report
+- check project report above for more details on this! 
 
 ## Project 3 : Face Recognition
 
@@ -27,7 +27,7 @@ title: "Research"
 - worked on a dataset of facial images of dimension 650 X 506 X 3
 - performed PCA to reduce dimentionality of the images
 - The eigenface method was used to  recognise an input image. Euclidean distance between this input image eigenface and the previously stored eigenface are calculated, the eigenface with the smallest Euclidean distance is the one the  person resembles the most. 
-- More details of the code will be produced when asked
+
 
 ## Project 4 : Using music transformer to generate music and then make generative model GAN react to the music (Audio-reactive Latent Interpolations with StyleGAN)
 - Example of work
@@ -35,3 +35,6 @@ title: "Research"
 - <https://drive.google.com/file/d/1Z-12ax042iECnG2N8_pUzwhr1fY63xi2/view?usp=sharing>
 
 ## Project 5 : Generating Depth map using Stable Diffusion, Integrate with Houdini
+Welcome to my investigation on stable diffusion in Visual Effects (VFX), with a particular emphasis on how it may be used to create depth maps in Houdini. 
+
+Houdini Integration: Artists may add depth to their projects with ease thanks to customised tools and workflows in Houdini that offer a foundation for the smooth integration of Stable Diffusion into their workflow. 
