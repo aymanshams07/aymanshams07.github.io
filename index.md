@@ -3,7 +3,7 @@ layout: page
 title: "Research"
 ---
 
-## Generative modeling (GANS, GAN+VAE, Music Transformer), and Ai Art and Creativity
+## Generative modeling (GANS, GAN+VAE, Music Transformer), Art and Creativity
 
 
 ## Project 1 : UnPaired image-to-image translation using cycle consistent GANs for Sim2Real task 
