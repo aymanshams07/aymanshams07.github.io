@@ -37,4 +37,4 @@ title: "Research"
 ## Project 5 : Generating Depth map using Stable Diffusion, Integrate with Houdini
 Welcome to my investigation on stable diffusion in Visual Effects (VFX), with a particular emphasis on how it may be used to create depth maps in Houdini. 
 
-Houdini Integration: Artists may add depth to their projects with ease thanks to customised tools and workflows in Houdini that offer a foundation for the smooth integration of Stable Diffusion into their workflow. 
+Houdini Integration: Artists may add depth to their projects with ease thanks to customised tools and workflows in Houdini that offers a foundation for the smooth integration of Stable Diffusion into their workflow.
