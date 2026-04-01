@@ -38,3 +38,14 @@ title: "Research"
 Welcome to my investigation on stable diffusion in Visual Effects (VFX), with a particular emphasis on how it may be used to create depth maps in Houdini. 
 
 Houdini Integration: Artists may add depth to their projects with ease thanks to customised tools and workflows in Houdini that offers a foundation for the smooth integration of Stable Diffusion into their workflow.
+
+## Publications : 
+
+Addressing Different Goal Selection Strategies in Hindsight Experience Replay with Actor-Critic Methods for Robotic Hand Manipulation - Robotics Automation and AI Conference (RAAI ’22) 2022
+https://github.com/aymanshams07/TD3_HER
+
+Intrinsic Motivation: Hierarchical Reinforcement Learning with Curriculum and HER for Dextrous Hand Manipulation (pending) - ICRA’26
+https://github.com/aymanshams07/TQC_Options
+
+Learning to touchdown and walk on uneven terrain with Deep Deterministic Policy Gradient Approach
+https://github.com/aymanshams07/ddpg_mod
