@@ -39,6 +39,9 @@ Welcome to my investigation on stable diffusion in Visual Effects (VFX), with a 
 
 Houdini Integration: Artists may add depth to their projects with ease thanks to customised tools and workflows in Houdini that offers a foundation for the smooth integration of Stable Diffusion into their workflow.
 
+## Project 6 : Gaussian Splat / Nerf
+https://github.com/aymanshams07/gaussian_nerf_research
+
 ## Publications : 
 
 Addressing Different Goal Selection Strategies in Hindsight Experience Replay with Actor-Critic Methods for Robotic Hand Manipulation - Robotics Automation and AI Conference (RAAI ’22) 2022
