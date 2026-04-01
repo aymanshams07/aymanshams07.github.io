@@ -50,15 +50,15 @@ A custom Houdini workflow was developed to seamlessly incorporate depth maps gen
 This setup provides a flexible foundation for combining modern generative models with traditional VFX tools, improving both efficiency and creative control.
 
 ## Project 6 : Gaussian Splat / Nerf
-https://github.com/aymanshams07/gaussian_nerf_research
+<https://github.com/aymanshams07/gaussian_nerf_research>
 
 ## Publications : 
 
 Addressing Different Goal Selection Strategies in Hindsight Experience Replay with Actor-Critic Methods for Robotic Hand Manipulation - Robotics Automation and AI Conference (RAAI ’22) 2022
-https://github.com/aymanshams07/TD3_HER
+<https://github.com/aymanshams07/TD3_HER>
 
 Intrinsic Motivation: Hierarchical Reinforcement Learning with Curriculum and HER for Dextrous Hand Manipulation (pending) - ICRA’26
-https://github.com/aymanshams07/TQC_Options
+<https://github.com/aymanshams07/TQC_Options>
 
 Learning to touchdown and walk on uneven terrain with Deep Deterministic Policy Gradient Approach
-https://github.com/aymanshams07/ddpg_mod
+<https://github.com/aymanshams07/ddpg_mod>
