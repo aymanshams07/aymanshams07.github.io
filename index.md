@@ -1,7 +1,3 @@
----
-layout: page
-title: "Research"
----
 
 ## Generative modeling (GANS, GAN+VAE, Music Transformer), Art and Creativity
 
