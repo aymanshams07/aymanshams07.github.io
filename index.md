@@ -8,17 +8,18 @@ title: "Research"
 Addressing Different Goal Selection Strategies in Hindsight Experience Replay with Actor-Critic Methods for Robotic Hand Manipulation - Robotics Automation and AI Conference (RAAI ’22) 2022: 
 - <https://github.com/aymanshams07/TD3_HER>
 
+## Independant Research
 Intrinsic Motivation: Hierarchical Reinforcement Learning with Curriculum and HER for Dextrous Hand Manipulation (pending) - ICRA’26: 
 - <https://github.com/aymanshams07/TQC_Options>
 
 Learning to touchdown and walk on uneven terrain with Deep Deterministic Policy Gradient Approach: 
 - <https://github.com/aymanshams07/ddpg_mod>
 
-
-## Generative modeling (GANS, GAN+VAE, Music Transformer), Art and Creativity
-
 ## Project 1 : Gaussian Splat / Nerf
 - <https://github.com/aymanshams07/gaussian_nerf_research>
+
+
+## Collaborative Research
 
 ## Project 2 : UnPaired image-to-image translation using cycle consistent GANs for Sim2Real task 
 
@@ -51,8 +52,7 @@ Learning to touchdown and walk on uneven terrain with Deep Deterministic Policy 
 
 This project explores the use of Stable Diffusion in Visual Effects (VFX), focusing on generating depth maps and integrating them into a Houdini-based workflow.
 
-### Overview
-The goal is to investigate how diffusion models can assist in creating depth information from images, enabling enhanced scene understanding and compositing capabilities in VFX pipelines.
+The goal of this work was to investigate how diffusion models can assist in creating depth information from images, enabling enhanced scene understanding and compositing capabilities in VFX pipelines.
 
 ### Houdini Integration
 A custom Houdini workflow was developed to seamlessly incorporate depth maps generated via Stable Diffusion. This allows artists to:
