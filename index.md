@@ -30,14 +30,24 @@ title: "Research"
 
 
 ## Project 4 : Using music transformer to generate music and then make generative model GAN react to the music (Audio-reactive Latent Interpolations with StyleGAN)
-- Example of work
 - <https://drive.google.com/file/d/1yKflC5aIhLaty2Q5TfxqJqWd9MqIb1bl/view?usp=sharing>
 - <https://drive.google.com/file/d/1Z-12ax042iECnG2N8_pUzwhr1fY63xi2/view?usp=sharing>
 
-## Project 5 : Generating Depth map using Stable Diffusion, Integrate with Houdini
-Welcome to my investigation on stable diffusion in Visual Effects (VFX), with a particular emphasis on how it may be used to create depth maps in Houdini. 
+## ## Project 5: Depth Map Generation with Stable Diffusion (Houdini Integration)
 
-Houdini Integration: Artists may add depth to their projects with ease thanks to customised tools and workflows in Houdini that offers a foundation for the smooth integration of Stable Diffusion into their workflow.
+This project explores the use of Stable Diffusion in Visual Effects (VFX), focusing on generating depth maps and integrating them into a Houdini-based workflow.
+
+### Overview
+The goal is to investigate how diffusion models can assist in creating depth information from images, enabling enhanced scene understanding and compositing capabilities in VFX pipelines.
+
+### Houdini Integration
+A custom Houdini workflow was developed to seamlessly incorporate depth maps generated via Stable Diffusion. This allows artists to:
+
+- Easily import and utilize AI-generated depth maps  
+- Enhance compositing and scene layering  
+- Integrate diffusion-based outputs directly into procedural pipelines  
+
+This setup provides a flexible foundation for combining modern generative models with traditional VFX tools, improving both efficiency and creative control.
 
 ## Project 6 : Gaussian Splat / Nerf
 https://github.com/aymanshams07/gaussian_nerf_research
