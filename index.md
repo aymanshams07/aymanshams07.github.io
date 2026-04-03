@@ -15,8 +15,11 @@ Intrinsic Motivation: Hierarchical Reinforcement Learning with Curriculum and HE
 Learning to touchdown and walk on uneven terrain with Deep Deterministic Policy Gradient Approach: 
 - <https://github.com/aymanshams07/ddpg_mod>
 
-## Project 1 : Gaussian Splat / Nerf
+## Project 1 : 3d Gaussian Splat / Nerf
 - <https://github.com/aymanshams07/gaussian_nerf_research>
+
+- 4D Gaussia with trainig loop :
+- <https://github.com/aymanshams07/4D_Gaussian_splat>
 
 
 ## Collaborative Research
