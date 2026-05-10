@@ -1,121 +1,65 @@
 ---
 layout: page
-title: "Graphics, Neural Rendering & VFX"
+title: "Vision & Generative AI"
 ---
 
-# 🎨 Graphics, Neural Rendering & VFX
+# 👁️ Computer Vision & Generative AI
 
-Research and experimentation involving neural rendering, Gaussian splatting, NeRF systems, procedural workflows, and AI-assisted VFX pipelines.
-
----
-
-# 🌌 Neural Rendering Research
-
-## ☁️ Gaussian Splatting & NeRF Research
-
-### 🔍 Overview
-Research exploring neural rendering methods for scene reconstruction and real-time rendering.
-
-### ⚙️ Areas Explored
-- Neural Radiance Fields (NeRF)
-- Gaussian Splatting
-- Volumetric rendering
-- Real-time reconstruction
-
-### 🔗 Repository
-💻 GitHub  
-<https://github.com/aymanshams07/gaussian_nerf_research>
+Work on computer vision systems, GANs, medical imaging, multimodal AI, and audio-visual generation.
 
 ---
 
-## ⏳ 4D Gaussian Splatting with Training Pipeline
+# 😀 Computer Vision
 
-### 🔍 Overview
-Implementation and experimentation involving dynamic scene rendering using temporal Gaussian representations.
+## Face Recognition (PCA / Eigenfaces)
 
-### ⚙️ Areas Explored
-- Dynamic scene rendering
-- Temporal Gaussian representations
-- Training loop integration
-- 4D reconstruction
+- PCA-based dimensionality reduction
+- Eigenface method
+- Euclidean similarity matching
 
-### 🔗 Repository
-💻 GitHub  
-<https://github.com/aymanshams07/4D_Gaussian_splat>
+Dataset: 650×506×3 images
 
 ---
 
-# 🎬 AI-Assisted VFX Pipelines
+# 🏥 Medical Imaging
 
-## 🌀 Stable Diffusion Depth Mapping (Houdini Integration)
+## U-Net for Brachial Plexus Segmentation
 
-### 🔍 Overview
-Research focused on integrating diffusion-based depth estimation into procedural VFX pipelines.
+- U-Net architecture
+- Ultrasound segmentation
+- Pixel-level classification
 
-### 🛠️ Houdini Workflow
-Developed a custom workflow enabling:
-- AI-generated depth maps
-- Procedural compositing workflows
-- Scene layering
-- Diffusion-assisted VFX pipelines
-
-### 🧰 Technologies
-- Stable Diffusion
-- Houdini
-- Python
-- Procedural VFX Pipelines
+🔗 https://medium.com/@ayman.shams07/u-net-architecture-for-segmentation-of-brachial-plexus-436be3a23e7e
 
 ---
 
-# 🚗 Duckietown Research
+# 🌍 NLP / Language Models
 
-## 🔄 Sim2Real Translation using Cycle-Consistent GANs
+## English → Bengali Machine Translation
 
-### 🔍 Overview
-Research focused on reducing the simulation-to-reality gap using GAN-based image translation systems.
+- RNN sequence-to-sequence models
+- Encoder-decoder architecture
+- Keras implementation
 
-### ⚙️ Areas Explored
-- CycleGAN
-- UNIT architecture
-- Shared latent representations
-- Sim2Real transfer
-
-### 🚀 Highlights
-- Generated realistic images from simulation environments
-- Learned shared latent spaces
-- Improved realism for robotics systems
+🔗 https://medium.com/@ayman.shams07/implementing-rnn-to-create-a-language-model-using-sequence-to-sequence-approach-using-keras-in-6e4370f88557
 
 ---
 
-## 🎭 Neural Style Transfer for Duckietown
+# 🎵 Multimodal AI
 
-### 🔍 Overview
-Implemented neural style transfer systems for visual adaptation in robotics simulation environments.
+## Music + GAN Audio-Visual System
 
-### ⚙️ Methodology
-- VGG-19 CNN architecture
-- Content/style feature extraction
-- Neural style transfer optimization
-
-### 🎯 Applications
-- Domain randomization
-- Sim2Real robustness
-- Visual adaptation
-
-### 📄 Project Report
-🔗 Duckietown Report  
-<https://github.com/duckietown/course-extra/blob/daffy/book/course-extra/70_montreal_2020/10_project_reports_montreal_2020/04-sim2real/01_project-report-sim2real.md>
+- Music Transformer
+- StyleGAN latent control
+- Audio-reactive generation
 
 ---
 
-# 🛠️ Technologies
+# 🧠 Interests
 
-| Domain | Technologies |
-|---|---|
-| Rendering | NeRF, Gaussian Splatting |
-| VFX | Houdini |
-| Generative AI | Stable Diffusion |
-| Deep Learning | PyTorch |
-| Graphics | OpenGL, Procedural Pipelines |
-
----
+- Computer Vision
+- Generative AI
+- Medical Imaging
+- NLP
+- Multimodal Learning
+- GANs
