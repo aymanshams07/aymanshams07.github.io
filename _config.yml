@@ -12,6 +12,7 @@ show_sidebar: true
 show_minimal: false
 
 navigation:
+  - {file: "index.md", title: "RL & Robotics", icon: robot}
   - {file: "archive.md", title: "Graphics & VFX", icon: cube}
   - {file: "README.md", title: "Vision & GenAI", icon: eye}
   - {file: "writing.md", title: "Blogs", icon: pen-nib}
