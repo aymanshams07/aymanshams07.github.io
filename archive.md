@@ -1,80 +1,72 @@
 ---
 layout: page
-title: "Computer Vision & Generative AI"
+title: "Graphics & VFX"
 ---
 
-# 👁️ Computer Vision & Generative AI
+# 🎨 Graphics, Neural Rendering & VFX
 
-Research and experimentation involving computer vision systems, generative AI, multimodal learning, and audio-reactive synthesis.
-
----
-
-# 😀 Face Recognition using PCA & Eigenfaces
-
-### 🔍 Overview
-Classical computer vision pipeline for face recognition using PCA-based dimensionality reduction and eigenface representations.
-
-### ⚙️ Areas Explored
-- Principal Component Analysis (PCA)
-- Eigenface representations
-- Dimensionality reduction
-- Similarity matching
-
-### 🗂️ Dataset
-- Image dimensions: `650 × 506 × 3`
-
-### 📄 Project Report
-🔗 Report  
-<https://docs.google.com/document/d/11p0kalhKnpEl-ZTEpxwSHA3AIvaukwr7S6v5ZMj9Mbs/edit?usp=sharing>
+Work on neural rendering, Gaussian splatting, diffusion models, and procedural VFX systems.
 
 ---
 
-# 🎵 Music Generation & Audio-Reactive GANs
+# 🌌 Neural Rendering
 
-### 🔍 Overview
-Research combining transformer-based music generation with GAN-driven visual synthesis.
+## Gaussian Splatting & NeRF
 
-### ⚙️ Areas Explored
-- Music Transformer architectures
-- StyleGAN latent interpolation
-- Audio-reactive generation
-- Multimodal AI systems
+- Neural Radiance Fields (NeRF)
+- Gaussian Splatting
+- Real-time rendering
+- Scene reconstruction
 
-### 🎯 Objectives
-- Generate music using transformers
-- Drive GAN latent interpolation from audio
-- Explore multimodal generative workflows
-
-### 🎥 Demonstrations
-
-🔗 Demo 1  
-<https://drive.google.com/file/d/1yKflC5aIhLaty2Q5TfxqJqWd9MqIb1bl/view?usp=sharing>
-
-🔗 Demo 2  
-<https://drive.google.com/file/d/1Z-12ax042iECnG2N8_pUzwhr1fY63xi2/view?usp=sharing>
+🔗 https://github.com/aymanshams07/gaussian_nerf_research
 
 ---
 
-# 🔬 Research Interests
+## 4D Gaussian Splatting
 
-- Computer Vision
-- Generative AI
-- Multimodal Learning
-- GAN Architectures
-- Audio-Reactive Systems
-- Transformer Models
-- Latent Space Learning
+- Dynamic scene reconstruction
+- Temporal Gaussian fields
+- Training pipeline design
+
+🔗 https://github.com/aymanshams07/4D_Gaussian_splat
 
 ---
 
-# 🛠️ Technologies
+# 🎬 VFX & Diffusion Systems
 
-| Domain | Technologies |
-|---|---|
-| Computer Vision | PCA, CNNs |
-| Generative AI | StyleGAN, Stable Diffusion |
-| Audio AI | Music Transformer |
-| Deep Learning | PyTorch |
-| Programming | Python |
+## Depth Maps with Stable Diffusion (Houdini)
+
+- AI-generated depth estimation
+- Procedural VFX integration
+- Houdini pipeline design
+
+Tools:
+- Stable Diffusion
+- Houdini
+- Python
 
 ---
+
+# 🚗 Sim2Real (Duckietown)
+
+## CycleGAN / UNIT Domain Transfer
+
+- Simulation to real image translation
+- Shared latent spaces
+- GAN-based adaptation
+
+## Neural Style Transfer
+
+- VGG-19 feature extraction
+- Style-content recombination
+- Robotics simulation enhancement
+
+---
+
+# 🧠 Interests
+
+- Neural Rendering
+- VFX Pipelines
+- Gaussian Splatting
+- Diffusion Models
+- Sim2Real Transfer
