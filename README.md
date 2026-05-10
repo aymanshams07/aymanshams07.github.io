@@ -3,63 +3,96 @@ layout: page
 title: "Vision & Generative AI"
 ---
 
-# 👁️ Computer Vision & Generative AI
+# 👁️ Vision & Generative AI
 
-Work on computer vision systems, GANs, medical imaging, multimodal AI, and audio-visual generation.
+<div align="center">
 
----
+🧠 Computer Vision • 🎨 Generative AI • 🎵 Multimodal Systems • 🔬 Representation Learning
 
-# 😀 Computer Vision
-
-## Face Recognition (PCA / Eigenfaces)
-
-- PCA-based dimensionality reduction
-- Eigenface method
-- Euclidean similarity matching
-
-Dataset: 650×506×3 images
+</div>
 
 ---
 
-# 🏥 Medical Imaging
+## 🧠 Computer Vision
 
-## U-Net for Brachial Plexus Segmentation
+<div style="border:1px solid #ddd; padding:16px; border-radius:10px; margin-bottom:16px;">
 
-- U-Net architecture
-- Ultrasound segmentation
-- Pixel-level classification
+### 😀 Face Recognition using PCA & Eigenfaces
 
-🔗 https://medium.com/@ayman.shams07/u-net-architecture-for-segmentation-of-brachial-plexus-436be3a23e7e
+🏷️ **Tags:** `#ComputerVision` `#PCA` `#Eigenfaces` `#ClassicalML`
 
----
+A classical face recognition system based on statistical learning and dimensionality reduction.
 
-# 🌍 NLP / Language Models
+**Key Ideas**
+- 📉 Principal Component Analysis (PCA)
+- 🧬 Eigenface decomposition
+- 📦 Low-dimensional face embeddings
+- 📏 Euclidean distance classification
 
-## English → Bengali Machine Translation
+**Dataset**
+- 🖼️ Image size: 650 × 506 × 3
 
-- RNN sequence-to-sequence models
-- Encoder-decoder architecture
-- Keras implementation
+🔗 **Project Report**  
+https://docs.google.com/document/d/11p0kalhKnpEl-ZTEpxwSHA3AIvaukwr7S6v5ZMj9Mbs/edit?usp=sharing
 
-🔗 https://medium.com/@ayman.shams07/implementing-rnn-to-create-a-language-model-using-sequence-to-sequence-approach-using-keras-in-6e4370f88557
-
----
-
-# 🎵 Multimodal AI
-
-## Music + GAN Audio-Visual System
-
-- Music Transformer
-- StyleGAN latent control
-- Audio-reactive generation
+</div>
 
 ---
 
-# 🧠 Interests
+## 🎨 Generative AI & Multimodal Systems
 
-- Computer Vision
-- Generative AI
-- Medical Imaging
-- NLP
-- Multimodal Learning
-- GANs
+<div style="border:1px solid #ddd; padding:16px; border-radius:10px; margin-bottom:16px;">
+
+### 🎼 Audio-Visual Generative System
+
+🏷️ **Tags:** `#GenerativeAI` `#Multimodal` `#StyleGAN` `#MusicTransformer`
+
+Multimodal system combining music generation and visual synthesis.
+
+**Key Ideas**
+- 🎵 Music Transformer for sequence generation
+- 🎨 StyleGAN latent space manipulation
+- 🔊 Audio-reactive visual generation
+- 🔗 Cross-modal representation learning
+
+**Core Concepts**
+- 🧠 Latent space interpolation
+- 🎯 Conditional generation
+- 🔄 Audio-driven visual synthesis
+
+</div>
+
+---
+
+## 🎧 Music Transformer Demos
+
+<div style="border:1px solid #ddd; padding:16px; border-radius:10px; margin-bottom:16px;">
+
+🏷️ **Tags:** `#MusicAI` `#Transformers` `#GenerativeAudio`
+
+Transformer-based music generation used to drive generative visual systems.
+
+### 🎧 Demo Outputs
+
+🎵 **Demo 1**  
+🔗 https://drive.google.com/file/d/1yKflC5aIhLaty2Q5TfxqJqWd9MqIb1bl/view?usp=sharing
+
+🎵 **Demo 2**  
+🔗 https://drive.google.com/file/d/1Z-12ax042iECnG2N8_pUzwhr1fY63xi2/view?usp=sharing
+
+</div>
+
+---
+
+## 🧠 Research Interests
+
+<div style="display:flex; flex-wrap:wrap; gap:8px;">
+
+🏷️ Computer Vision  
+🏷️ Generative AI  
+🏷️ Multimodal Learning  
+🏷️ Representation Learning  
+🏷️ Neural Perception Systems  
+🏷️ Audio-Visual AI  
+
+</div>
