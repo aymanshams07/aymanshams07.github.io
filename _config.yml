@@ -19,7 +19,7 @@ show_minimal: false        #remove all clutter
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "archive.html", title: "Home", sidebaricon: home}
   - {file: "README.md", title: "About me"} #, icon: address-card}
-  #{title: "Blog", file:"blog.md"}
+
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:ayman.shams07@gmail.com"}
