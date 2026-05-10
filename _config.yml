@@ -24,17 +24,17 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:ayman.shams07@gmail.com"}
   - {title: Github, icon: github, url: "https://github.com/aymanshams07"}
-  - {title: Twitter, icon: twitter, url: "/feed.xml"}
-  - {title: Location, icon: location, url: "/feed.xml"}
+  #- {title: Twitter, icon: twitter, url: "/feed.xml"}
+  #- {title: Location, icon: location, url: "/feed.xml"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
 #  isso_domain: ""         # see https://posativ.org/isso/
 
-# plugins:
-#  - jekyll-feed
+ plugins:
+  - jekyll-feed
  
-remote_theme: niklasbuschmann/contrast@v2.11
+# remote_theme: niklasbuschmann/contrast@v2.11
 
-plugins:
-  - jekyll-remote-theme
+#plugins:
+  #- jekyll-remote-theme
