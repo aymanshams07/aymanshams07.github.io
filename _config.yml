@@ -19,7 +19,7 @@ show_minimal: false        #remove all clutter
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "archive.md", title: "Graphics/VFX", sidebaricon: home}
   - {file: "README.md", title: "Vision"} #, icon: address-card}
-  - {file: "writing.md", title: "Writing"}
+  - {file: "writing.md", title: "Blogs"}
 
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
