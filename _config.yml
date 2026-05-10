@@ -17,8 +17,8 @@ show_minimal: false        #remove all clutter
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "archive.html", title: "Home", sidebaricon: home}
-  - {file: "README.md", title: "About me"} #, icon: address-card}
+  - {file: "archive.md", title: "Graphics/VFX", sidebaricon: home}
+  - {file: "README.md", title: "Vision"} #, icon: address-card}
   - {file: "writing.md", title: "Writing"}
 
 
