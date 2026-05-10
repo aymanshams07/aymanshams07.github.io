@@ -1,41 +1,28 @@
 title: "Ayman Shams"
 author: "Ayman Shams"
-description: "My Research and Dev Work"
+description: "AI Research | RL • Vision • Graphics • Generative AI"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
 
-# Layout
+show_excerpts: true
+show_frame: false
+show_sidebar: true
+show_minimal: false
 
-# show_social: true
-show_excerpts: true        # show article excerpts on the home page
-show_frame: true           # adds a gray frame to the site
-show_sidebar: false        # show a sidebar instead of the usual header
-show_minimal: false        #remove all clutter
+navigation:
+  - {file: "archive.md", title: "Graphics & VFX", icon: cube}
+  - {file: "README.md", title: "Vision & GenAI", icon: eye}
+  - {file: "writing.md", title: "Blogs", icon: pen-nib}
 
-# Menu
+external:
+  - {title: Email, icon: envelope, url: "mailto:ayman.shams07@gmail.com"}
+  - {title: GitHub, icon: github, url: "https://github.com/aymanshams07"}
+  - {title: Medium, icon: medium, url: "https://medium.com/@ayman.shams07"}
 
-navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "archive.md", title: "Graphics/VFX", sidebaricon: home}
-  - {file: "README.md", title: "Vision"} #, icon: address-card}
-  - {file: "writing.md", title: "Blogs"}
-
-
-external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:ayman.shams07@gmail.com"}
-  - {title: Github, icon: github, url: "https://github.com/aymanshams07"}
-  #- {title: Twitter, icon: twitter, url: "/feed.xml"}
-  #- {title: Location, icon: location, url: "/feed.xml"}
-
-comments:
-#  disqus_shortname: ""    # see https://disqus.com/
-#  isso_domain: ""         # see https://posativ.org/isso/
-
- plugins:
+plugins:
   - jekyll-feed
- 
-# remote_theme: niklasbuschmann/contrast@v2.11
+  - jekyll-remote-theme
 
-#plugins:
-  #- jekyll-remote-theme
+remote_theme: niklasbuschmann/contrast@v2.11
