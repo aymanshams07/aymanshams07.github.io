@@ -18,8 +18,7 @@ Work on neural rendering, Gaussian splatting, diffusion models, and procedural V
 - Real-time rendering
 - Scene reconstruction
 
-🔗 https://github.com/aymanshams07/gaussian_nerf_research
-
+🔗 <https://github.com/aymanshams07/gaussian_nerf_research>
 ---
 
 ## 4D Gaussian Splatting
@@ -28,7 +27,7 @@ Work on neural rendering, Gaussian splatting, diffusion models, and procedural V
 - Temporal Gaussian fields
 - Training pipeline design
 
-🔗 https://github.com/aymanshams07/4D_Gaussian_splat
+🔗 <https://github.com/aymanshams07/4D_Gaussian_splat>
 
 ---
 
