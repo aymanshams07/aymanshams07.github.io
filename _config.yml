@@ -1,6 +1,6 @@
 title: "Ayman Shams"
 author: "Ayman Shams"
-description: "Concordia University & McGill Surgical Innovation"
+description: "My Research and Dev Work"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -9,17 +9,17 @@ date_format: "%B %d, %Y"
 # Layout
 
 # show_social: true
-show_excerpts: false        # show article excerpts on the home page
-show_frame: false           # adds a gray frame to the site
+show_excerpts: true        # show article excerpts on the home page
+show_frame: true           # adds a gray frame to the site
 show_sidebar: false        # show a sidebar instead of the usual header
-minimal: true             # use a dark header
+show_minimal: false        #remove all clutter
 
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "archive.html", title: "Home"}
+  - {file: "archive.html", title: "Home", sidebaricon: home}
   - {file: "README.md", title: "About me"} #, icon: address-card}
-  - {title: "Blog", file:"blog.md"}
+  #{title: "Blog", file:"blog.md"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:ayman.shams07@gmail.com"}
