@@ -3,96 +3,69 @@ layout: page
 title: "Vision & Generative AI"
 ---
 
-# 👁️ Vision & Generative AI
+# 👁️ Computer Vision & Generative AI
 
-<div align="center">
-
-🧠 Computer Vision • 🎨 Generative AI • 🎵 Multimodal Systems • 🔬 Representation Learning
-
-</div>
+Research focused on visual perception, representation learning, and generative AI systems combining vision, audio, and latent space modeling.
 
 ---
 
-## 🧠 Computer Vision
+# 😀 Computer Vision
 
-<div style="border:1px solid #ddd; padding:16px; border-radius:10px; margin-bottom:16px;">
+## 🧠 Face Recognition using PCA & Eigenfaces
 
-### 😀 Face Recognition using PCA & Eigenfaces
+Classical computer vision system based on statistical learning and linear algebra.
 
-🏷️ **Tags:** `#ComputerVision` `#PCA` `#Eigenfaces` `#ClassicalML`
+### 🔍 Key Ideas
+- Principal Component Analysis (PCA)
+- Eigenface decomposition
+- Low-dimensional face embeddings
+- Euclidean distance classification
 
-A classical face recognition system based on statistical learning and dimensionality reduction.
+### 📊 Dataset
+- Image size: 650 × 506 × 3
 
-**Key Ideas**
-- 📉 Principal Component Analysis (PCA)
-- 🧬 Eigenface decomposition
-- 📦 Low-dimensional face embeddings
-- 📏 Euclidean distance classification
-
-**Dataset**
-- 🖼️ Image size: 650 × 506 × 3
-
-🔗 **Project Report**  
+### 🔗 Project Report
 https://docs.google.com/document/d/11p0kalhKnpEl-ZTEpxwSHA3AIvaukwr7S6v5ZMj9Mbs/edit?usp=sharing
 
-</div>
+---
+
+# 🎨 Generative AI & Multimodal Systems
+
+## 🎼 Audio-Visual Generative System (Music Transformer + GAN)
+
+Exploration of multimodal generative AI combining music generation with visual synthesis.
+
+### 🔍 Focus Areas
+- Music Transformer for sequence generation
+- StyleGAN latent space manipulation
+- Audio-reactive visual generation
+- Cross-modal representation learning
+
+### 🧠 Key Concepts
+- Latent space interpolation
+- Conditional generative modeling
+- Audio-driven visual synthesis
+- Multimodal alignment
 
 ---
 
-## 🎨 Generative AI & Multimodal Systems
+## 🎵 Music Transformer Demo Outputs
 
-<div style="border:1px solid #ddd; padding:16px; border-radius:10px; margin-bottom:16px;">
+Generated music using transformer-based sequence modeling, used to drive generative visual systems.
 
-### 🎼 Audio-Visual Generative System
+### 🎧 Demos
+🔗 Demo 1  
+https://drive.google.com/file/d/1yKflC5aIhLaty2Q5TfxqJqWd9MqIb1bl/view?usp=sharing
 
-🏷️ **Tags:** `#GenerativeAI` `#Multimodal` `#StyleGAN` `#MusicTransformer`
-
-Multimodal system combining music generation and visual synthesis.
-
-**Key Ideas**
-- 🎵 Music Transformer for sequence generation
-- 🎨 StyleGAN latent space manipulation
-- 🔊 Audio-reactive visual generation
-- 🔗 Cross-modal representation learning
-
-**Core Concepts**
-- 🧠 Latent space interpolation
-- 🎯 Conditional generation
-- 🔄 Audio-driven visual synthesis
-
-</div>
+🔗 Demo 2  
+https://drive.google.com/file/d/1Z-12ax042iECnG2N8_pUzwhr1fY63xi2/view?usp=sharing
 
 ---
 
-## 🎧 Music Transformer Demos
+# 🧠 Research Interests
 
-<div style="border:1px solid #ddd; padding:16px; border-radius:10px; margin-bottom:16px;">
-
-🏷️ **Tags:** `#MusicAI` `#Transformers` `#GenerativeAudio`
-
-Transformer-based music generation used to drive generative visual systems.
-
-### 🎧 Demo Outputs
-
-🎵 **Demo 1**  
-🔗 https://drive.google.com/file/d/1yKflC5aIhLaty2Q5TfxqJqWd9MqIb1bl/view?usp=sharing
-
-🎵 **Demo 2**  
-🔗 https://drive.google.com/file/d/1Z-12ax042iECnG2N8_pUzwhr1fY63xi2/view?usp=sharing
-
-</div>
-
----
-
-## 🧠 Research Interests
-
-<div style="display:flex; flex-wrap:wrap; gap:8px;">
-
-🏷️ Computer Vision  
-🏷️ Generative AI  
-🏷️ Multimodal Learning  
-🏷️ Representation Learning  
-🏷️ Neural Perception Systems  
-🏷️ Audio-Visual AI  
-
-</div>
+- Computer Vision
+- Representation Learning
+- Generative AI
+- Multimodal Systems
+- Neural Perception Models
