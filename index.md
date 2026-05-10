@@ -1,67 +1,259 @@
 ---
 layout: page
-title: "Research"
+title: "Research & Technical Work"
 ---
 
-## Publications : 
+# 🧠 Research & Technical Work
 
-Addressing Different Goal Selection Strategies in Hindsight Experience Replay with Actor-Critic Methods for Robotic Hand Manipulation - Robotics Automation and AI Conference (RAAI ’22) 2022: 
-- <https://github.com/aymanshams07/TD3_HER>
+A collection of research publications, reinforcement learning systems, robotics experiments, neural rendering research, procedural VFX workflows, and multimodal generative AI explorations.
 
-## Published work
-Intrinsic Motivation: Hierarchical Reinforcement Learning with Curriculum and HER for Dextrous Hand Manipulation (pending) - ICRA’26: 
-- <https://github.com/aymanshams07/TQC_Options>
+---
 
-Learning to touchdown and walk on uneven terrain with Deep Deterministic Policy Gradient Approach: 
-- <https://github.com/aymanshams07/ddpg_mod>
+# 📚 Publications
 
-## 3D/ 4D Graphics, VFX related work
-## Project 1 : Gaussian Splat / Nerf
-- 3d : <https://github.com/aymanshams07/gaussian_nerf_research>
+## 🤖 Addressing Different Goal Selection Strategies in Hindsight Experience Replay with Actor-Critic Methods for Robotic Hand Manipulation
+### 📍 Robotics Automation and AI Conference (RAAI ’22), 2022
 
-- 4D Gaussian with trainig loop :
-- <https://github.com/aymanshams07/4D_Gaussian_splat>
+### 🔍 Research Overview
+This research investigates how different goal-selection strategies affect learning efficiency in robotic hand manipulation tasks using Hindsight Experience Replay (HER) with actor-critic reinforcement learning methods.
 
-## Project 2 : Depth Map Generation with Stable Diffusion (Houdini Integration)
+### ⚙️ Areas Explored
+- 🧠 Hindsight Experience Replay (HER)
+- 🎯 Goal selection strategies
+- 🤖 Robotic hand manipulation
+- ⚡ TD3 / DDPG reinforcement learning
+- 📉 Sparse reward learning
 
-This project explores the use of Stable Diffusion in Visual Effects (VFX), focusing on generating depth maps and integrating them into a Houdini-based workflow.
+### 🚀 Contributions
+- Evaluated multiple HER goal sampling strategies
+- Analyzed learning stability and convergence
+- Improved exploration efficiency in dexterous manipulation tasks
 
-The goal of this work was to investigate how diffusion models can assist in creating depth information from images, enabling enhanced scene understanding and compositing capabilities in VFX pipelines.
+### 🔗 Repository
+💻 GitHub  
+<https://github.com/aymanshams07/TD3_HER>
 
-### Houdini Integration
-A custom Houdini workflow was developed to seamlessly incorporate depth maps generated via Stable Diffusion. This allows artists to:
+---
 
-- Easily import and utilize AI-generated depth maps  
-- Enhance compositing and scene layering  
-- Integrate diffusion-based outputs directly into procedural pipelines  
+# 📝 Ongoing Research
 
-This setup provides a flexible foundation for combining modern generative models with traditional VFX tools, improving both efficiency and creative control.
+## 🦾 Intrinsic Motivation: Hierarchical Reinforcement Learning with Curriculum and HER for Dextrous Hand Manipulation
+### 📍 Pending Publication — ICRA 2026
 
-## Duckietown Framework
-## Project 3 : UnPaired image-to-image translation using cycle consistent GANs for Sim2Real task 
+### 🔍 Research Overview
+A hierarchical reinforcement learning framework integrating curriculum learning, intrinsic motivation, HER, and the Options Framework for long-horizon dexterous manipulation.
 
-- Project aims to reduce reality gap by using Generative Adversarial Networks to generate realistic images from simullation images. 
--  The UNIT model was able to learn a generative model that could generate quite realistic images from synthetic images.
-- UNIT attempts to learn the same mapping G : X -> Y as CycleGAN, but it uses a slightly different approach, by enforcing the idea of a shared latent space between pairs of images and using Variational Auto Encoders (VAE) in addition to a GAN network. Thus, UNIT tries to learn that shared latent space and tries to minimize the cycle consistency loss, the VAE losses as well as the adversarial losses.
+### ⚙️ Research Components
+- 📊 Truncated Quantile Critics (TQC)
+- 🧠 Hindsight Experience Replay (HER)
+- 🏗️ Hierarchical Reinforcement Learning
+- 📚 Curriculum Learning
+- ✨ Intrinsic Motivation
+- 🎯 Subgoal decomposition
 
-## Project 4 : Style transfer for Duckietown
+### 🎯 Focus Areas
+- Long-horizon manipulation
+- Hierarchical policy execution
+- Exploration efficiency
+- Multi-stage robotic tasks
 
-- Style transfer is a system which uses neural represenations to separate and recombine content and style of arbitrary images. This is implemented by optimizing the output image to match the content statistics of the content image and the style statistics of the style reference image.
-- VGG-19 CNN architecture is used to extract both the content and style features from the content and style images respectively.
-- check project report above for more details on this. 
+### 🔗 Repository
+💻 GitHub  
+<https://github.com/aymanshams07/TQC_Options>
 
-- <https://github.com/duckietown/course-extra/blob/daffy/book/course-extra/70_montreal_2020/10_project_reports_montreal_2020/04-sim2real/01_project-report-sim2real.md>
+---
 
-## Project 5 : Face Recognition
+## 🦿 Reinforcement Learning for Uneven Terrain Locomotion
 
-- Project report 
-- <https://docs.google.com/document/d/11p0kalhKnpEl-ZTEpxwSHA3AIvaukwr7S6v5ZMj9Mbs/edit?usp=sharing>
-- worked on a dataset of facial images of dimension 650 X 506 X 3
-- performed PCA to reduce dimentionality of the images
-- The eigenface method was used to  recognise an input image. Euclidean distance between this input image eigenface and the previously stored eigenface are calculated, the eigenface with the smallest Euclidean distance is the one the  person resembles the most. 
+### 🔍 Research Overview
+Exploration of locomotion control using reinforcement learning agents trained to walk and stabilize over uneven terrain.
 
+### ⚙️ Areas Explored
+- ⚡ Deep Deterministic Policy Gradient (DDPG)
+- 🌍 Continuous control environments
+- 🦾 Terrain adaptation
+- 🧭 Stability learning
 
-## Project 6 : Using music transformer to generate music and then make generative model GAN react to the music (Audio-reactive Latent Interpolations with StyleGAN)
-- <https://drive.google.com/file/d/1yKflC5aIhLaty2Q5TfxqJqWd9MqIb1bl/view?usp=sharing>
-- <https://drive.google.com/file/d/1Z-12ax042iECnG2N8_pUzwhr1fY63xi2/view?usp=sharing>
+### 🔗 Repository
+💻 GitHub  
+<https://github.com/aymanshams07/ddpg_mod>
 
+---
+
+# 🎨 3D / 4D Graphics & VFX Research
+
+## 🌌 Gaussian Splatting & NeRF Research
+
+### 🔍 Overview
+Research exploring modern neural rendering methods for scene reconstruction and real-time rendering.
+
+### ⚙️ Areas Explored
+- 🌐 Neural Radiance Fields (NeRF)
+- ☁️ Gaussian Splatting
+- 🎥 Volumetric rendering
+- 🏙️ Real-time scene reconstruction
+
+### 🔗 Repository
+💻 GitHub  
+<https://github.com/aymanshams07/gaussian_nerf_research>
+
+---
+
+## ⏳ 4D Gaussian Splatting with Training Pipeline
+
+### 🔍 Overview
+Implementation and experimentation involving dynamic scene rendering using temporal Gaussian representations.
+
+### ⚙️ Areas Explored
+- 🎞️ Dynamic scene rendering
+- ☁️ Temporal Gaussian representations
+- 🏋️ Training loop integration
+- 🌍 4D scene reconstruction
+
+### 🔗 Repository
+💻 GitHub  
+<https://github.com/aymanshams07/4D_Gaussian_splat>
+
+---
+
+## 🎬 Stable Diffusion Depth Mapping (Houdini Integration)
+
+### 🔍 Overview
+Research focused on integrating diffusion-based depth estimation into procedural VFX pipelines.
+
+### 🛠️ Houdini Workflow
+Developed a custom workflow enabling:
+- 🤖 AI-generated depth map integration
+- 🎨 Enhanced compositing and scene layering
+- ⚡ Procedural manipulation in Houdini
+- 🧩 Diffusion-assisted VFX workflows
+
+### 🧰 Technologies
+- 🤖 Stable Diffusion
+- 🌀 Houdini
+- 🐍 Python
+- 🎞️ Procedural VFX Pipelines
+
+---
+
+# 🚗 Duckietown Research
+
+## 🔄 Sim2Real Translation using Cycle-Consistent GANs
+
+### 🔍 Overview
+Research focused on reducing the simulation-to-reality gap using GAN-based image translation methods.
+
+### ⚙️ Areas Explored
+- 🎨 GAN-based image translation
+- 🌍 Sim2Real domain adaptation
+- 🔁 CycleGAN
+- 🧬 UNIT architecture
+- 📦 Variational Autoencoders (VAE)
+
+### 🚀 Highlights
+- Generated realistic images from simulation environments
+- Learned shared latent representations
+- Improved realism for robotics perception systems
+
+---
+
+## 🎭 Neural Style Transfer for Duckietown
+
+### 🔍 Overview
+Implemented neural style transfer techniques for simulation adaptation and visual augmentation.
+
+### ⚙️ Methodology
+- 🖼️ Used VGG-19 CNN architecture
+- 🎨 Extracted style representations
+- 📷 Extracted content representations
+- 🔀 Combined representations to generate stylized outputs
+
+### 🎯 Applications
+- 🎲 Domain randomization
+- 🌍 Sim2Real robustness
+- 🤖 Visual adaptation for robotics
+
+### 📄 Project Report
+🔗 Duckietown Report  
+<https://github.com/duckietown/course-extra/blob/daffy/book/course-extra/70_montreal_2020/10_project_reports_montreal_2020/04-sim2real/01_project-report-sim2real.md>
+
+---
+
+# 👁️ Computer Vision & Generative AI
+
+## 😀 Face Recognition using PCA & Eigenfaces
+
+### 🔍 Overview
+Classical computer vision pipeline for face recognition using PCA-based dimensionality reduction and eigenface representations.
+
+### ⚙️ Areas Explored
+- 📉 Principal Component Analysis (PCA)
+- 🧬 Eigenface representations
+- 📦 Dimensionality reduction
+- 📏 Euclidean distance similarity matching
+
+### 🗂️ Dataset
+- 🖼️ Image dimensions: `650 × 506 × 3`
+
+### 📄 Project Report
+🔗 Report  
+<https://docs.google.com/document/d/11p0kalhKnpEl-ZTEpxwSHA3AIvaukwr7S6v5ZMj9Mbs/edit?usp=sharing>
+
+---
+
+## 🎵 Music Generation & Audio-Reactive GANs
+
+### 🔍 Overview
+Research combining transformer-based music generation with GAN-driven visual synthesis.
+
+### ⚙️ Areas Explored
+- 🎼 Music Transformer architectures
+- 🎨 StyleGAN latent interpolation
+- 🔊 Audio-reactive visual generation
+- 🌌 Multimodal generative systems
+
+### 🎯 Objectives
+- Generate music using transformer architectures
+- Drive GAN latent space interpolation from audio
+- Explore multimodal AI workflows
+
+### 🎥 Demonstrations
+
+🔗 Demo 1  
+<https://drive.google.com/file/d/1yKflC5aIhLaty2Q5TfxqJqWd9MqIb1bl/view?usp=sharing>
+
+🔗 Demo 2  
+<https://drive.google.com/file/d/1Z-12ax042iECnG2N8_pUzwhr1fY63xi2/view?usp=sharing>
+
+---
+
+# 🔬 Research Interests
+
+- 🤖 Reinforcement Learning
+- 🏗️ Hierarchical Reinforcement Learning
+- 🦾 Robotics & Manipulation
+- 🌍 Sim2Real Transfer
+- ☁️ Gaussian Splatting
+- 🌐 Neural Rendering
+- 🎨 Diffusion Models
+- 👁️ Computer Vision
+- ✨ Generative AI
+- 🎬 Procedural VFX Pipelines
+- 🎵 Multimodal Learning
+
+---
+
+# 🛠️ Technical Stack
+
+| 💡 Domain | ⚙️ Technologies |
+|---|---|
+| 🤖 Reinforcement Learning | TD3, DDPG, TQC, HER |
+| 🧠 Deep Learning | PyTorch, TensorFlow |
+| 🦾 Robotics | MuJoCo, Gymnasium, Duckietown |
+| 🌌 Graphics / Rendering | Gaussian Splatting, NeRF |
+| 🎬 VFX | Houdini |
+| 👁️ Computer Vision | PCA, CNNs, GANs |
+| ✨ Generative AI | Stable Diffusion, StyleGAN, Music Transformer |
+| 💻 Programming | Python, C#, C++ |
+
+---
