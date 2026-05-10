@@ -25,7 +25,7 @@ Classical computer vision system based on statistical learning and linear algebr
 - Image size: 650 × 506 × 3
 
 ### 🔗 Project Report
-https://docs.google.com/document/d/11p0kalhKnpEl-ZTEpxwSHA3AIvaukwr7S6v5ZMj9Mbs/edit?usp=sharing
+<https://docs.google.com/document/d/11p0kalhKnpEl-ZTEpxwSHA3AIvaukwr7S6v5ZMj9Mbs/edit?usp=sharing>
 
 ---
 
@@ -55,10 +55,10 @@ Generated music using transformer-based sequence modeling, used to drive generat
 
 ### 🎧 Demos
 🔗 Demo 1  
-https://drive.google.com/file/d/1yKflC5aIhLaty2Q5TfxqJqWd9MqIb1bl/view?usp=sharing
+<https://drive.google.com/file/d/1yKflC5aIhLaty2Q5TfxqJqWd9MqIb1bl/view?usp=sharing>
 
 🔗 Demo 2  
-https://drive.google.com/file/d/1Z-12ax042iECnG2N8_pUzwhr1fY63xi2/view?usp=sharing
+<https://drive.google.com/file/d/1Z-12ax042iECnG2N8_pUzwhr1fY63xi2/view?usp=sharing>
 
 ---
 
